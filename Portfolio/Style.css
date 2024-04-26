@@ -1,0 +1,149 @@
+#Nav-ul{
+    color: #EBF2FA;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 1em;
+    cursor: pointer;
+}
+#Nav-ul :hover{
+background-color: #bc790c;
+width: auto;
+height: auto;
+padding: 0.5em;
+border-radius: 10px;
+}
+.navbar{
+    /* background-color: #05668D; */
+    background-color: #3D3C49;
+padding-left: 1em;
+}
+.navbar a {
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+header{
+    /* background-color: #427AA1; */
+    background-color: #666365;
+    color: #EBF2FA;
+    padding: 1px;
+}
+header h3{
+    padding-left: 25px;
+    color: #000000;
+}
+header p{
+    padding-left: 25px;
+    font-size: 18px;
+}
+.social-icon{
+    background-color: #dee4f7; 
+    padding-top: 10px;
+   padding-bottom: 0.5px;
+    
+}
+.social-icon  li{
+margin-top: 2px;
+cursor: pointer;
+list-style: none;
+
+}
+#header-li{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+#btn-contact{
+   padding: 0.5em;
+    height: auto;
+    border-radius: 4px;
+    background-color: #d1ab12;
+    color: #fff;
+    border: none;
+}
+.project-sec{
+    display: flex;
+    /* direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+.projects {
+    width: 300px;
+    height: auto;
+    padding: 1.5em;
+    background-color: #3D3C49;
+    margin-top: 35px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px gray;
+    cursor: pointer;
+   
+}
+.projects h4 {
+   color: #d1ab12;
+}
+
+
+.anker{
+    text-decoration: none;
+    color: #bc790c;
+}
+
+#PROJE-HEADING {
+    text-align: center;
+    margin-top: 15px;
+    color: #3D3C49;
+    font-weight: 800;
+    border-radius: 5px;
+    color: #3D3C49;
+}
+
+
+#contectinfo{
+    width: 400px;
+    height: auto;
+    padding: 2em;
+    background-color: #bc790c;
+    margin-top: 35px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px gray;
+    cursor: pointer;
+    padding-bottom: 100px;
+}
+#contectinfo b{
+color: #3D3C49;
+}
+#contHed{
+    text-align: center;
+    margin-top: 15px;
+    color: #3D3C49;
+    font-weight: 800;
+    border-radius: 5px;
+    color: #3D3C49;
+}
+#main-div{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 5em;
+ 
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15PX;
+  }
+
+  /* Centered text in footer */
+  .footer-text {
+    text-align: center;
+  }
